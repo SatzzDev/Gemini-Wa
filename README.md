@@ -1,7 +1,34 @@
 ![explain](https://github.com/user-attachments/assets/1be21f5d-9ccf-4854-8fbb-877d6111577f)
-# Menggunakan Bahasa Pemrograman Apa Aja?
-- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+# Diagram Penjelasan
+
+Diagram ini menggambarkan hubungan antara berbagai bagian dalam aplikasi. Berikut penjelasan singkatnya:
+
+### Komponen:
+- **README.md**: File dokumentasi aplikasi.
+- **Core Logic**: Komponen yang mengatur logika utama aplikasi.
+- **AI Interaction Logic**: Bagian yang menangani interaksi dengan sistem AI.
+- **Main Application**: Bagian utama aplikasi yang menjalankan fungsi-fungsi lainnya.
+- **External Services**: Layanan eksternal seperti OpenAI API.
+- **OpenAI API**: API untuk layanan OpenAI, khususnya ChatGPT.
+- **Utilities**: Fungsi utilitas umum untuk berbagai bagian aplikasi.
+- **Utility Functions**: Fungsi yang digunakan di banyak tempat dalam aplikasi.
+- **Baileys API**: API untuk layanan pesan instan, seperti Baileys.
+- **Session Management**: Mengatur dan menyimpan data sesi pengguna.
+- **Session Data**: Data sesi pengguna seperti kredensial atau info sesi.
+- **Configuration**: Menyimpan pengaturan aplikasi.
+- **API Keys & Settings**: Kunci API dan pengaturan untuk mengakses layanan eksternal.
+
+### Hubungan:
+- **Core Logic** menggunakan **Utilities** untuk fungsi-fungsi umum.
+- **Main Application** pakai **Core Logic** buat logika utama aplikasi.
+- **AI Interaction Logic** memanggil **Main Application** dan pakai **OpenAI API** buat AI.
+- **Main Application** pakai **Baileys API** buat layanan pesan.
+- **Main Application** baca data sesi dari **Session Management**.
+- **Main Application** baca pengaturan dari **Configuration**.
+- **Main Application** pakai **External Services** untuk layanan lainnya.
+
+### Kesimpulan:
+Diagram ini nunjukin gimana semua komponen ini saling kerja bareng buat bikin aplikasi yang jalan dengan baik, termasuk interaksi dengan AI, layanan pesan, dan layanan eksternal lainnya.
 
 ---
 
