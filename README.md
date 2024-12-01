@@ -1,3 +1,74 @@
+
+![deploy_bot_diagram](https://github.com/user-attachments/assets/70a14585-de9c-43e3-afc0-934bb46f2595)
+
+
+### Langkah-Langkah Deploy Bot ke VPS (Niagahoster):
+
+1. **Beli VPS dari Niagahoster**  
+   - Pilih paket VPS sesuai kebutuhan.  
+   - Lanjutkan proses pembelian dan dapatkan akses VPS.
+
+---
+
+2. **Akses VPS via SSH**  
+   - Gunakan terminal atau aplikasi seperti PuTTY.  
+   - Masukkan perintah:  
+     ```bash
+     ssh username@ip_address
+     ```  
+   - Ganti `username` dan `ip_address` dengan kredensial VPS Anda.
+
+---
+
+3. **Update Sistem & Instalasi Dependencies**  
+   - Update sistem VPS:  
+     ```bash
+     sudo apt update && sudo apt upgrade -y
+     ```  
+   - Instal Node.js dan npm:  
+     ```bash
+     sudo apt install nodejs npm -y
+     ```
+
+---
+
+4. **Clone Repository Bot**  
+   - Gunakan Git untuk clone repository:  
+     ```bash
+     git clone https://github.com/SatzzDev/Gemini-Wa.git
+     cd repository
+     ```
+
+---
+
+5. **Instal Dependensi Bot**  
+   - Jalankan perintah untuk instal dependensi:  
+     ```bash
+     npm install
+     ```
+
+---
+
+6. **Jalankan Bot**  
+   - Jalankan bot dengan Node.js:  
+     ```bash
+     node index.js
+     ```  
+   - Atau gunakan PM2 agar bot tetap berjalan di background:  
+     ```bash
+     pm2 start index.js
+     ```
+
+---
+
+8. **Monitoring Bot**  
+   - Cek status bot dan log:  
+     ```bash
+     pm2 logs
+     ```
+
+---
+
 ![explain](https://github.com/user-attachments/assets/1be21f5d-9ccf-4854-8fbb-877d6111577f)
 # Diagram Penjelasan
 
