@@ -1,6 +1,6 @@
 const sessionName = "session";
 const {
-  default: sansekaiConnect,
+  default: Connect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
@@ -138,7 +138,7 @@ async function startHisoka() {
     )
   );
 
-  const client = sansekaiConnect({
+  const client = Connect({
     version: [ 2, 3000, 1015901307 ],
     logger: pino({ level: "silent" }),
     printQRInTerminal: false,
@@ -239,7 +239,7 @@ async function startHisoka() {
         console.log("Connection Replaced, Another New Session Opened, Please Restart Bot");
         process.exit();
       } else if (reason === DisconnectReason.loggedOut) {
-        console.log(`Device Logged Out, Please Delete Folder Session yusril and Scan Again.`);
+        console.log(`Device Logged Out, Please Delete Folder session and Scan Again.`);
         process.exit();
       } else if (reason === DisconnectReason.restartRequired) {
         console.log("Restart Required, Restarting...");
