@@ -11,13 +11,15 @@
 
 ---
 
-# Apa Itu Node.js?
-- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-- Node.js adalah alat yang powerful untuk pengembangan aplikasi server-side menggunakan JavaScript, memungkinkan pengembang untuk membangun aplikasi yang cepat dan efisien.
+1. # Apa Itu Node.js?
+  - ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+   - Node.js adalah alat yang powerful untuk pengembangan aplikasi server-side menggunakan JavaScript, memungkinkan pengembang untuk membangun aplikasi yang cepat dan efisien.
 
 ---
 
-# Apa itu Sesi kredensial
+# session
+- folder session adalah folder dimana kredensial disimpan
+ - # Apa itu Sesi kredensial
 Jadi, sesi kredensial itu kayak "kunci" yang dipakai bot WhatsApp buat masuk ke akun WhatsApp-nya. Bayangkan kamu punya akun WhatsApp, dan setiap kali kamu mau buka, kamu butuh nomor telepon dan kode verifikasi. Nah, sesi kredensial ini mirip, tapi untuk bot.
 
 Token Akses: Ini kayak tiket masuk yang bilang, "Hey, saya boleh masuk!" ke server WhatsApp.
