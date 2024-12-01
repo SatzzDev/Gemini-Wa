@@ -61,6 +61,14 @@
 
 ---
 
+7. **Penyambungan Bot Dengan Akun** (hanya satu kali)
+   - jika sudah menjalankan bot tunggu hingga code qr di terminal muncul
+   - jika sudah muncul buka whatsapp lalu klik titik tiga
+   - klik tautkan perangkat
+   - klik dan scan
+
+---
+
 8. **Monitoring Bot**  
    - Cek status bot dan log:  
      ```bash
