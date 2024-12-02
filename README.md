@@ -42,7 +42,7 @@
    - Gunakan Git untuk clone repository:  
      ```bash
      git clone https://github.com/SatzzDev/Gemini-Wa.git
-     cd repository
+     cd Gemini-Wa
      ```
      ![image](https://github.com/user-attachments/assets/2b562099-e238-41fa-a01c-bfe8189cf0c6)
      ![image](https://github.com/user-attachments/assets/5dd407b4-b3b9-4166-8703-8d1f568928a9)
