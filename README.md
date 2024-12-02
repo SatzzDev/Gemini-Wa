@@ -16,7 +16,10 @@
      ```bash
      ssh username@ip_address
      ```  
+     ![Screenshot 2024-12-02 120005](https://github.com/user-attachments/assets/9756f41d-8033-4620-b3f2-ec9d45ef6aa7)
+
    - Ganti `username` dan `ip_address` dengan kredensial VPS Anda.
+
 
 ---
 
@@ -25,10 +28,13 @@
      ```bash
      sudo apt update && sudo apt upgrade -y
      ```  
+     ![Screenshot 2024-12-02 120046](https://github.com/user-attachments/assets/dd1b2d17-74e5-40ea-adc6-c0d71af834e6)
+
    - Instal Node.js dan npm:  
      ```bash
      sudo apt install nodejs npm -y
      ```
+     ![image](https://github.com/user-attachments/assets/a644a0bf-f5e6-436c-a279-8ce786e42fe0)
 
 ---
 
@@ -38,6 +44,8 @@
      git clone https://github.com/SatzzDev/Gemini-Wa.git
      cd repository
      ```
+     ![image](https://github.com/user-attachments/assets/2b562099-e238-41fa-a01c-bfe8189cf0c6)
+     ![image](https://github.com/user-attachments/assets/5dd407b4-b3b9-4166-8703-8d1f568928a9)
 
 ---
 
@@ -58,6 +66,7 @@
      ```bash
      pm2 start index.js
      ```
+     ![image](https://github.com/user-attachments/assets/9f1395ea-1996-42e4-b719-3a7e5e2f25a0)
 
 ---
 
